@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T09:19:55 IST" name="Suite" finished-at="2022-09-26T09:20:27 IST" duration-ms="31523">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T09:19:55 IST" name="TestLocal" finished-at="2022-09-26T09:20:27 IST" duration-ms="31523">
+      <class name="script.Test2">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:script.Test2@411f53a0]" started-at="2022-09-26T09:20:16 IST" name="openApp" finished-at="2022-09-26T09:20:26 IST" duration-ms="10390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void script.Test2.testB()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testB()[pri:2, instance:script.Test2@411f53a0]" started-at="2022-09-26T09:20:26 IST" name="testB" finished-at="2022-09-26T09:20:26 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.Test2@411f53a0]" started-at="2022-09-26T09:20:26 IST" name="closeApp" finished-at="2022-09-26T09:20:27 IST" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testB status=SUCCESS method=Test2.testB()[pri:2, instance:script.Test2@411f53a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.Test2 -->
+      <class name="script.Test1">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:script.Test1@765d7657]" started-at="2022-09-26T09:19:54 IST" name="initReport" finished-at="2022-09-26T09:19:55 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:script.Test1@765d7657]" started-at="2022-09-26T09:19:55 IST" name="openApp" finished-at="2022-09-26T09:20:12 IST" duration-ms="16652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void script.Test1.testA()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testA()[pri:1, instance:script.Test1@765d7657]" started-at="2022-09-26T09:20:12 IST" name="testA" finished-at="2022-09-26T09:20:15 IST" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.Test1@765d7657]" started-at="2022-09-26T09:20:15 IST" name="closeApp" finished-at="2022-09-26T09:20:16 IST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=Test1.testA()[pri:1, instance:script.Test1@765d7657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.Test1@765d7657]" started-at="2022-09-26T09:20:27 IST" name="publishReport" finished-at="2022-09-26T09:20:28 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- script.Test1 -->
+    </test> <!-- TestLocal -->
+  </suite> <!-- Suite -->
+</testng-results>
